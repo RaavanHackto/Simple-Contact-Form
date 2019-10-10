@@ -19,6 +19,7 @@ Thank you for your interest! All types of contributions welcome.
 
 - Fork and clone this repository
 - Create your branch from the `master` branch
+- Send your PR for evaluation
 
 ---
 

@@ -21,10 +21,10 @@
  8. Make PR.
  9. Commits should be descriptive.
 
-- Thank you for your interest! All types of contributions welcome. 
+## _Thank you for your interest! All types of contributions welcome._
 
 
-# License 
+## License 
 ### _You are free to use my creation but give me credit._
 
 # live demo

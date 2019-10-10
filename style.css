@@ -48,6 +48,27 @@ body {
 	float: right;
 }
 
+.submit-button {
+	border-radius: 4px;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+  }
+  
+  .submit-button:hover {
+	background-color: grey;
+	color: white;
+  }
+
 label {
 	float: left;
 	text-align: right;

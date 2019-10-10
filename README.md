@@ -10,9 +10,6 @@
   
   There's not validation or back-end development, it's only a simple form.
   
-# License 
-### _You are free to use my creation but give me credit._
-
 ## How to contribute
  1. Make a Fork.
  2. Clone the repository to your local desktop.
@@ -25,6 +22,10 @@
  9. Commits should be descriptive.
 
 - Thank you for your interest! All types of contributions welcome. 
+
+
+# License 
+### _You are free to use my creation but give me credit._
 
 # live demo
 [Demo](https://shravanmeena.github.io/Simple-Contact-Form/)

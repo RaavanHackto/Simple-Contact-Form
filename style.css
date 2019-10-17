@@ -1,19 +1,21 @@
 * {
-	margin: 5%;
+	margin: 0;
 	padding: 0;
 }
 
 body {
 	font-size: 65%;
 	font-family: Helvetica, sans-serif;
-	background: url(bg.png);
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(bg.png);
 
 }
 
 
 #page-wrap {
 	width: 700px;
+	border:5px solid black;
 	background: white;
+	color:green;
 	padding: 70px 50px 20px 20px;
 	margin: 20px auto;
 	min-height: 500px;
@@ -45,29 +47,8 @@ body {
 
 #contact-area input.submit-button {
 	width: 100px;
-	float: right;
+    margin-left:40%;
 }
-
-.submit-button {
-	border-radius: 4px;
-	background-color: white;
-	border: none;
-	color: black;
-	text-align: center;
-	font-size: 28px;
-	padding: 20px;
-	width: 200px;
-	transition: all 0.5s;
-	cursor: pointer;
-	margin: 5px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
-  }
-  
-  .submit-button:hover {
-	background-color: grey;
-	color: white;
-  }
 
 label {
 	float: left;

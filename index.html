@@ -3,7 +3,7 @@
 
 <head>
 	<title>Contact Form</title>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -37,5 +37,19 @@
 	</div>
 
 </body>
+<script>
+	$(document).ready(function(){
+		setInterval(()=>{
+			$('#page-wrap').fadeIn(200).animate({marginLeft:'200px',color:'red'},200);
+		   $('h1').animate({letterSpacing:'15px'},200).animate({letterSpacing:'10px',tranform:'scale(1.1)'},200)
+		   
+		},2000)
 
+		$('form').submit(function(e){
+			e.preventDefault();
+			$('input:submit').css('transform','scale(1.5)');
+		})
+
+	})
+</script>
 </html>

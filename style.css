@@ -21,6 +21,7 @@ body {
 	min-height: 500px;
 	height: auto !important;
 	height: 500px;
+	display: none;
 }
 
 #contact-area {
@@ -47,6 +48,9 @@ body {
 
 #contact-area input.submit-button {
 	width: 100px;
+  background: linear-gradient(to right,#900,red);
+  border:0px transparent;
+  color:white;
     margin-left:40%;
 }
 

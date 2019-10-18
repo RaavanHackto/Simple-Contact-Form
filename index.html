@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
 
-<head>
-	<title>Contact Form</title>
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
-	<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
+  <body>
+    <section class="form__container">
+      <form action="#" class="form">
+        <h2 class="form__header">Form Container</h2>
 
-<body>
+        <div class="form__group">
+          <input type="text" id="name" class="form__input" placeholder="Name" />
+          <label for="name" class="form__label">Name</label>
+        </div>
 
-	<div id="page-wrap">
+        <div class="form__group">
+          <input type="text" id="city" class="form__input" placeholder="City" />
+          <label for="city" class="form__label">City</label>
+        </div>
 
-		<h1 style="text-align: center; font-size: 40px">Contact Form</h1>
-				
-		<div id="contact-area">
-			
-			<form method="post" action="#">
-				<label for="Name">Name:</label>
-				<input type="text" name="Name" id="Name" placeholder="Name" />
+        <div class="form__group">
+          <input
+            type="email"
+            id="email"
+            class="form__input"
+            placeholder="Email"
+          />
+          <label for="email" class="form__label">Email</label>
+        </div>
 
-				<label for="City">City:</label>
-				<input type="text" name="City" id="City" placeholder="City" />
-	
-				<label for="Email">Email:</label>
-				<input type="text" name="Email" id="Email" placeholder="Email" />
-				
-				<label for="Message">Message:</label><br />
-				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+        <div class="form__group">
+          <textarea
+            id="message"
+            class="form__textarea"
+            placeholder="Type your message here..."
+          ></textarea>
+          <label for="message" class="form__label">Message</label>
+        </div>
+      </form>
 
-				<input type="submit" name="submit" value="Send" class="submit-button" />
-			</form>
-			
-	
-	</div>
-
-</body>
-
+      <button class="button button--black">Send</button>
+    </section>
+  </body>
 </html>

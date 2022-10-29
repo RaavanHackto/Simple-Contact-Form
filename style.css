@@ -12,13 +12,12 @@ body {
 
 
 #page-wrap {
-	width: 700px;
-	background: white;
+	width: 600px;
+	background: rgb(213, 212, 212);
 	padding: 70px 50px 20px 20px;
 	margin: 20px auto;
 	min-height: 500px;
-	height: auto !important;
-	height: 500px;
+	height: 750px;
 }
 
 #contact-area {
@@ -36,7 +35,7 @@ body {
 }
 
 #contact-area textarea {
-	height: 90px;
+	height: 100px;
 }
 
 #contact-area textarea:focus, #contact-area input:focus {
@@ -49,24 +48,27 @@ body {
 }
 
 .submit-button {
+	border: 5px solid black;
 	border-radius: 4px;
-	background-color: white;
-	border: none;
+	background-color: rgb(150, 150, 150);
 	color: black;
 	text-align: center;
 	font-size: 28px;
-	padding: 20px;
 	width: 200px;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin: 5px;
+	margin-top: 10px;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
+	font-weight: 500;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .submit-button:hover {
-	background-color: grey;
+	
+	background-color: black;
 	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 label {
@@ -76,4 +78,23 @@ label {
 	width: 100px;
 	padding-top: 5px;
 	font-size: 1.7em;
+}
+.input-name{
+    
+	 font-weight: 550;
+	 margin-left:-50px;
+	 margin-bottom: 10px;
+}
+.input2{
+	margin-left:-59px;
+
+}
+.input3{
+	margin-left:-20px;
+}
+
+.helloman{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
